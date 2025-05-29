@@ -62,5 +62,5 @@ Um gerenciador de tarefas simples, porém eficaz, desenvolvido em Python para aj
 ---
 ## Licença
 
-Este projeto é apenas para fins de demonstração e portfólio. Sinta-se à vontade para usá-lo como inspiração!
+O código original do tutorial provavelmente possui sua própria licença. Esta implementação é para fins de aprendizado e portfólio.
 
