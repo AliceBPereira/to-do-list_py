@@ -11,7 +11,7 @@ class GerenciadorDeTarefas:
         nova_tarefa = Tarefa(titulo, descricao, data_vencimento)
         self.tarefas.append(nova_tarefa)
         print(f"tarefa {titulo} adicinada com sucesso")
-        self.tarefa()
+        self.salvar()
 
     def listar_tarefas(self, status=None):
         if not self.tarefas:
@@ -27,7 +27,7 @@ class GerenciadorDeTarefas:
         if 0 <= indice < len(self.tarefas):
             tarefa = self.tarefas[indice]
             if titulo:
-                tarefa.editar_tarefa(titulo)
+                tarefa.editar_titulo(titulo)
             if descricao:
                 tarefa.editar_descricao(descricao)
             if data_vencimento:
